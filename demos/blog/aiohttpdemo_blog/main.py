@@ -79,6 +79,9 @@ def main(configpath):
 
 
 if __name__ == '__main__':
+    """
+    python main.py -c ../config/test_config.toml
+    """
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("-c", "--config", help="Provide path to config file")

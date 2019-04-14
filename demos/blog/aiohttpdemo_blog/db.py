@@ -36,6 +36,7 @@ posts = Table(
 async def init_db(app):
     dsn = construct_db_url(app['config']['database'])
     pool = await asyncpgsa.create_pool(dsn=dsn)
+    # request.app
     app['db_pool'] = pool
     return pool
 

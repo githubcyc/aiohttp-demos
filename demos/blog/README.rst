@@ -32,7 +32,7 @@ Run server::
 
     $ python aiohttpdemo_blog/main.py -c config/user_config.toml
 
-
+Adam/adam
 (example creds: Bob/bob)
 
 Testing
