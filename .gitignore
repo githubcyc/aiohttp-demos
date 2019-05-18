@@ -106,8 +106,9 @@ tags
 cscope.out
 cscope.files
 
-# idea
+# editor
 .idea/
+.vscode/
 
 # dependencies
 node_modules/
